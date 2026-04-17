@@ -1,0 +1,6 @@
+{
+	"growdev-custom-app": {
+		"component": "CustomInstallments",
+		"composition": "children"
+	}
+}
