@@ -1,7 +1,7 @@
 {
   "vendor": "partnersigrowdev",
   "name": "grow-dev-theme",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -66,6 +66,8 @@
     "vtex.css-handles": "1.x",
     "vtex.product-context": "0.x"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "vtex.reviews-and-ratings": "3.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
