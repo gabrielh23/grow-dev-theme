@@ -29,7 +29,7 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "vtex.menu@2.x:menu#top-bar",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
@@ -112,7 +112,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-smartphones",
       "menu-item#category-home",
       "menu-item#more"
     ],

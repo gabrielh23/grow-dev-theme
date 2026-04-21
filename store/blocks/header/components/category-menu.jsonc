@@ -4,12 +4,12 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
+      "menu-item#category-smartphones",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-smartphones": {
     "props": {
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -17,10 +17,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/smartphones/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
       }
     },
     "blocks": [
@@ -53,10 +53,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/samsung/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Samsung",
+        "text": "Samsung"
       }
     }
   },
@@ -68,10 +68,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/apple/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Apple",
+        "text": "Apple"
       }
     }
   },
@@ -85,8 +85,8 @@
         "type": "internal",
         "href": "/apparel---accessories/eyeglasses/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Motorola",
+        "text": "Motorola"
       }
     }
   },
@@ -98,10 +98,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/notebook/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
       }
     }
   },
@@ -115,8 +115,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Institucional",
+        "text": "Institucional"
       }
     },
     "blocks": [
@@ -133,12 +133,18 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1"
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
     ]
   },
   "flex-layout.col#menu-more-1": {
     "children": [
       "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
     ]
   },
   "vtex.menu@2.x:menu#more": {
@@ -158,10 +164,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/sobre-nos",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
       }
     }
   },
