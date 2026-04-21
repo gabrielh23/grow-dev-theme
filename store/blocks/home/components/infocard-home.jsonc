@@ -1,0 +1,15 @@
+{
+	"info-card#home": {
+		"props": {
+			"id": "info-card-home",
+			"isFullModeStyle": "false",
+			"textPosition": "left",
+			"imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+			"headline": "Ofertas imperdíveis",
+			"callToActionText": "Confira já",
+			"callToActionUrl": "/notebook-samsung/p",
+			"blockClass": "info-card-home",
+			"textAlignment": "center"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"rich-text#question": {
+		"props": {
+			"text": "**Grow Dev Store**",
+			"blockClass": "title-store-home"
+		}
+	}
+}

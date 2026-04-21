@@ -1,0 +1,85 @@
+{
+	"flex-layout.row#deals": {
+		"children": [
+			"flex-layout.col#deals1",
+			"flex-layout.col#deals2",
+			"flex-layout.col#deals3",
+			"flex-layout.col#deals4"
+		],
+		"props": {
+			"blockClass": "deals"
+		}
+	},
+	"flex-layout.col#deals1": {
+		"children": [
+			"image#deals1",
+			"rich-text#deals1"
+		]
+	},
+	"image#deals1": {
+		"props": {
+			"src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+			"maxHeight": "24px"
+		}
+	},
+	"rich-text#deals1": {
+		"props": {
+			"text": "Frete grátis",
+			"blockClass": "deals"
+		}
+	},
+	"flex-layout.col#deals2": {
+		"children": [
+			"image#deals2",
+			"rich-text#deals2"
+		]
+	},
+	"image#deals2": {
+		"props": {
+			"src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+			"maxHeight": "24px"
+		}
+	},
+	"rich-text#deals2": {
+		"props": {
+			"text": "Entrega rápida",
+			"blockClass": "deals"
+		}
+	},
+	"flex-layout.col#deals3": {
+		"children": [
+			"image#deals3",
+			"rich-text#deals3"
+		]
+	},
+	"image#deals3": {
+		"props": {
+			"src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+			"maxHeight": "24px"
+		}
+	},
+	"rich-text#deals3": {
+		"props": {
+			"text": "Retire na loja",
+			"blockClass": "deals"
+		}
+	},
+	"flex-layout.col#deals4": {
+		"children": [
+			"image#deals4",
+			"rich-text#deals4"
+		]
+	},
+	"image#deals4": {
+		"props": {
+			"src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+			"maxHeight": "24px"
+		}
+	},
+	"rich-text#deals4": {
+		"props": {
+			"text": "Descontos exclusivos",
+			"blockClass": "deals"
+		}
+	}
+}
