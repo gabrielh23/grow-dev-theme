@@ -20,8 +20,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Novidades",
+        "text": "Novidades"
       }
     }
   },
@@ -50,8 +50,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
       }
     }
   },
@@ -65,8 +65,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Personalização",
+        "text": "Personalização"
       }
     }
   },
@@ -151,8 +151,8 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Bolsas",
+        "text": "Bolsas"
       }
     }
   },
@@ -167,8 +167,8 @@
         "type": "internal",
         "href": "/bags/backpacks",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
       }
     }
   },
@@ -224,8 +224,8 @@
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -305,8 +305,8 @@
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Vestuario",
+        "text": "Vestuario"
       }
     }
   },
@@ -337,8 +337,8 @@
         "type": "internal",
         "href": "/clothing/tank-tops",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Regatas",
+        "text": "Regatas"
       }
     }
   },
@@ -353,8 +353,8 @@
         "type": "internal",
         "href": "/clothing/shirts",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Camisas",
+        "text": "Camisas"
       }
     }
   },
@@ -369,8 +369,8 @@
         "type": "internal",
         "href": "/clothing/sweatshirt",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Moletom",
+        "text": "Moletom"
       }
     }
   },
