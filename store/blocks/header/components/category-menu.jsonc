@@ -5,6 +5,7 @@
     },
     "children": [
       "menu-item#category-smartphones",
+      "menu-item#category-notebooks",
       "menu-item#category-home",
       "menu-item#more"
     ]
@@ -27,12 +28,38 @@
       "vtex.menu@2.x:submenu#category-apparel"
     ]
   },
+  "menu-item#category-notebooks": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebook/",
+        "noFollow": false,
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-notebook"
+    ]
+  },
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
       "width": "auto"
     },
     "children": [
       "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-notebook": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-notebook"
     ]
   },
   "vtex.menu@2.x:menu#category-apparel": {
@@ -44,6 +71,61 @@
       "menu-item#category-apparel-accessories",
       "menu-item#category-apparel-eyeglasses"
     ]
+  },
+  "vtex.menu@2.x:menu#category-notebook": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-notebook-acer",
+      "menu-item#category-notebook-samsung",
+      "menu-item#category-notebook-dell"
+    ]
+  },
+  "menu-item#category-notebook-acer": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acer/",
+        "noFollow": false,
+        "tagTitle": "Acer",
+        "text": "Acer"
+      }
+    }
+  },
+  "menu-item#category-notebook-samsung": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/samsung/",
+        "noFollow": false,
+        "tagTitle": "Samsung",
+        "text": "Samsung"
+      }
+    }
+  },
+  "menu-item#category-notebook-dell": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dell/",
+        "noFollow": false,
+        "tagTitle": "Dell",
+        "text": "Dell"
+      }
+    }
   },
   "menu-item#category-apparel-clothing": {
     "props": {
