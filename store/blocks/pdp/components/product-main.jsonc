@@ -55,7 +55,6 @@
 		},
 		"children": [
 			"flex-layout.row#product-name",
-			"growdev-custom-app",
 			"product-rating-summary",
 			"flex-layout.row#list-price-savings-pdp",
 			"flex-layout.row#selling-price-pdp",
