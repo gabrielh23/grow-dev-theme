@@ -58,6 +58,7 @@
 			"product-rating-summary",
 			"flex-layout.row#list-price-savings-pdp",
 			"flex-layout.row#selling-price-pdp",
+			"growdev-custom-installments",
 			"product-installments",
 			"product-separator",
 			"product-identifier.product",
